@@ -1,4 +1,3 @@
-
 h1. urele-gwibber
 
 Plugin para encurtador de url do Gwibber utilizando o serviço do urele.com
@@ -16,7 +15,7 @@ h2. Instalação
 
 2) Edite o arquivo __init__.py adicionando a seguinte linha:
 
-
+<pre>
     import cligs, tinyurlcom, ur1ca
     import urele
 
@@ -24,7 +23,7 @@ h2. Instalação
         ...
         "urele.com": urele,
     }
-
+</pre>
 
 h2. License
 
