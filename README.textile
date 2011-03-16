@@ -18,11 +18,15 @@ h2. Instalação
 
 
     import cligs, tinyurlcom, ur1ca
+
     import urele
 
     PROTOCOLS = {
+
         ...
+
         "urele.com": urele,
+
     }
 
 
