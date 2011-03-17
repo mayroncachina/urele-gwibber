@@ -11,12 +11,12 @@ h2. Mantenedor
 h2. Instalação
 
 1) Coloque um link simbolico para a pasta: 
-/usr/share/pyshared/gwibber/microblog/urlshorter
+
+<pre>/usr/share/pyshared/gwibber/microblog/urlshorter</pre>
 
 2) Edite o arquivo __init__.py adicionando a seguinte linha:
 
 <pre>
-    import cligs, tinyurlcom, ur1ca
     import urele
 
     PROTOCOLS = {
